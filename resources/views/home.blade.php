@@ -14,57 +14,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 </head>
 
-<body class="pt-5">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="container">
-            <div class="col">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/escod.png" 
-                    width="70" height="30" class="d-inline-block align-top" alt="Company Logo">
-                </a>
-            </div>
+<body>
+    <div class="container-fluid p-0 m-0">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <div class="col">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/escod.png" 
+                        width="70" height="30" class="d-inline-block align-top" alt="Company Logo">
+                    </a>
+                </div>
 
-            <div class="col-8">
-                <div class="collapse navbar-collapse justify-content-center">
-                    
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
-                        </li>
+                <div class="col-8">
+                    <div class="collapse navbar-collapse justify-content-center">
+                        
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Aver</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Aver</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Elmo</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Elmo</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nureva</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nureva</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Visionary</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Visionary</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col text-end">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a href="#">
+                        <i class="bi bi-cart3 text-secondary d-none d-md-block" style="font-size: 24px;"></i>
+                    </a>
+
                 </div>
             </div>
-
-            <div class="col text-end">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <i class="bi bi-cart3 text-secondary d-none d-md-block" style="font-size: 24px;"></i>
-
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     
     <div class="offcanvas offcanvas-end text-bg-dark w-" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
 
@@ -91,21 +95,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Visionary</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">My Cart</a>
-                </li>
             </ul>
 
         </div>
 
     </div>
 
-    <div class="container text-white text-end">
+    <main>
+        <div class="container text-white text-end">
             <div class="row">
-                <div class="col-12">
-                    <span class="Title-text d-flex justify-content-end">
-                        Find your devices...
-                    </span>
+                <div class="col">
+                    <div class="Title-text d-flex justify-content-end">
+                        <div class="typing">
+                            Find your devices...
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row d-flex justify-content-end">
@@ -113,7 +117,8 @@
                     <span class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nulla molestias, officiis architecto voluptas modi ad ullam repellendus ex veniam? Vel ipsa eveniet voluptate ipsum, beatae eos nihil commodi esse!</span>
                 </div>
             </div>
-    </div>
+        </div>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
